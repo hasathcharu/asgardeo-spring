@@ -3,6 +3,12 @@ GET http://localhost:8080/api/public
 
 ###
 GET http://localhost:8080/api/private
+Authorization: Bearer {{token}}
 
 ###
 GET http://localhost:8080/api/private/user
+Authorization: Bearer {{token}}
+
+###
+GET http://localhost:8080/api/admin
+Authorization: Bearer {{token}}

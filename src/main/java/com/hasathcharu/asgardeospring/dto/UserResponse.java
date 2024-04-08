@@ -1,3 +1,3 @@
 package com.hasathcharu.asgardeospring.dto;
 
-public record UserResponse(String username, String email, String[] roles) { }
+public record UserResponse(String name, String email, String scope) { }
