@@ -1,0 +1,8 @@
+###
+GET http://localhost:8080/api/public
+
+###
+GET http://localhost:8080/api/private
+
+###
+GET http://localhost:8080/api/private/user
